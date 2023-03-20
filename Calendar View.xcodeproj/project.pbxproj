@@ -13,6 +13,7 @@
 		FAED96C329C824FC005286D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAED96C129C824FC005286D2 /* LaunchScreen.storyboard */; };
 		FAED96D529C831FE005286D2 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAED96D429C831FE005286D2 /* CalendarViewController.swift */; };
 		FAED96DF29C8349A005286D2 /* CalendarKit in Frameworks */ = {isa = PBXBuildFile; productRef = FAED96DE29C8349A005286D2 /* CalendarKit */; };
+		FAED96E129C83D1D005286D2 /* EKWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAED96E029C83D1D005286D2 /* EKWrapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		FAED96C229C824FC005286D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAED96C429C824FC005286D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAED96D429C831FE005286D2 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		FAED96E029C83D1D005286D2 /* EKWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EKWrapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		FAED96CE29C826A1005286D2 /* Constant */ = {
 			isa = PBXGroup;
 			children = (
+				FAED96E029C83D1D005286D2 /* EKWrapper.swift */,
 			);
 			path = Constant;
 			sourceTree = "<group>";
@@ -225,6 +228,7 @@
 				FAED96D529C831FE005286D2 /* CalendarViewController.swift in Sources */,
 				FAED96B729C824FA005286D2 /* AppDelegate.swift in Sources */,
 				FAED96B929C824FA005286D2 /* SceneDelegate.swift in Sources */,
+				FAED96E129C83D1D005286D2 /* EKWrapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,6 +372,7 @@
 				DEVELOPMENT_TEAM = K6BJ9JXQPF;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Calendar View/Info.plist";
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "The app needs calendar permission in otder to display and edit events";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -397,6 +402,7 @@
 				DEVELOPMENT_TEAM = K6BJ9JXQPF;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Calendar View/Info.plist";
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "The app needs calendar permission in otder to display and edit events";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
