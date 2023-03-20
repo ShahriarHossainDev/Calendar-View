@@ -10,7 +10,6 @@
 		FAED96B729C824FA005286D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAED96B629C824FA005286D2 /* AppDelegate.swift */; };
 		FAED96B929C824FA005286D2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAED96B829C824FA005286D2 /* SceneDelegate.swift */; };
 		FAED96BB29C824FA005286D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAED96BA29C824FA005286D2 /* ViewController.swift */; };
-		FAED96BE29C824FA005286D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAED96BC29C824FA005286D2 /* Main.storyboard */; };
 		FAED96C029C824FC005286D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAED96BF29C824FC005286D2 /* Assets.xcassets */; };
 		FAED96C329C824FC005286D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAED96C129C824FC005286D2 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -20,7 +19,6 @@
 		FAED96B629C824FA005286D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAED96B829C824FA005286D2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FAED96BA29C824FA005286D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FAED96BD29C824FA005286D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FAED96BF29C824FC005286D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAED96C229C824FC005286D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAED96C429C824FC005286D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,15 +54,94 @@
 		FAED96B529C824FA005286D2 /* Calendar View */ = {
 			isa = PBXGroup;
 			children = (
-				FAED96B629C824FA005286D2 /* AppDelegate.swift */,
-				FAED96B829C824FA005286D2 /* SceneDelegate.swift */,
-				FAED96BA29C824FA005286D2 /* ViewController.swift */,
-				FAED96BC29C824FA005286D2 /* Main.storyboard */,
-				FAED96BF29C824FC005286D2 /* Assets.xcassets */,
-				FAED96C129C824FC005286D2 /* LaunchScreen.storyboard */,
+				FAED96CF29C826B3005286D2 /* Application */,
+				FAED96CE29C826A1005286D2 /* Constant */,
+				FAED96CD29C82696005286D2 /* Extenstions */,
+				FAED96CC29C8268B005286D2 /* Serecns */,
+				FAED96CB29C82680005286D2 /* Storyboard */,
+				FAED96CA29C82672005286D2 /* Resourecs */,
 				FAED96C429C824FC005286D2 /* Info.plist */,
 			);
 			path = "Calendar View";
+			sourceTree = "<group>";
+		};
+		FAED96CA29C82672005286D2 /* Resourecs */ = {
+			isa = PBXGroup;
+			children = (
+				FAED96BF29C824FC005286D2 /* Assets.xcassets */,
+			);
+			path = Resourecs;
+			sourceTree = "<group>";
+		};
+		FAED96CB29C82680005286D2 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				FAED96C129C824FC005286D2 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		FAED96CC29C8268B005286D2 /* Serecns */ = {
+			isa = PBXGroup;
+			children = (
+				FAED96D029C82B57005286D2 /* Calendar */,
+			);
+			path = Serecns;
+			sourceTree = "<group>";
+		};
+		FAED96CD29C82696005286D2 /* Extenstions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extenstions;
+			sourceTree = "<group>";
+		};
+		FAED96CE29C826A1005286D2 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		FAED96CF29C826B3005286D2 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				FAED96B629C824FA005286D2 /* AppDelegate.swift */,
+				FAED96B829C824FA005286D2 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		FAED96D029C82B57005286D2 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				FAED96D329C82B90005286D2 /* Model */,
+				FAED96D129C82B80005286D2 /* View */,
+				FAED96D229C82B87005286D2 /* ViewModel */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		FAED96D129C82B80005286D2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FAED96BA29C824FA005286D2 /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FAED96D229C82B87005286D2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FAED96D329C82B90005286D2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +204,6 @@
 			files = (
 				FAED96C329C824FC005286D2 /* LaunchScreen.storyboard in Resources */,
 				FAED96C029C824FC005286D2 /* Assets.xcassets in Resources */,
-				FAED96BE29C824FA005286D2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,14 +223,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FAED96BC29C824FA005286D2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FAED96BD29C824FA005286D2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FAED96C129C824FC005286D2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -294,7 +362,6 @@
 				INFOPLIST_FILE = "Calendar View/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -324,7 +391,6 @@
 				INFOPLIST_FILE = "Calendar View/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
